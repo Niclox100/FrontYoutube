@@ -17,7 +17,7 @@ const Videos = () => {
               <div className="video__duration">12:23</div>
             </div>
             <div className="video__details">
-              <Avatar src="public/anyaaa.png" sx={{ width: 30, height: 30 }} className="video__avatar"/>
+              <Avatar src="https://www.mundodeportivo.com/alfabeta/hero/2022/08/cara-anya.jpeg?width=768&aspect_ratio=16:9&format=nowebp" sx={{ width: 30, height: 30 }} className="video__avatar"/>
               <div className="video__description">
                 <p className="video__title">Titulo</p>
                 <p className="video__channel">AnyaChannel</p>
