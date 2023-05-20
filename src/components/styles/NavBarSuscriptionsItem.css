@@ -1,0 +1,12 @@
+.navBarSuscriptionsItem-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.navBarSuscriptionsItem-container:hover {
+  background-color: #f2f2f2;
+}

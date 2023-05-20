@@ -1,0 +1,19 @@
+.navBarItem-tab {
+  border-radius: 10px;
+  width: calc(100% - 4px);
+  margin: 0px 2px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navBarItem-tab:hover,
+.navBarItem-tab:focus {
+  background-color: #f2f2f2;
+}
+
+.navBarItem-text {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
