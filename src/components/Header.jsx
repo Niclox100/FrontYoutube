@@ -22,7 +22,7 @@ const Header = () => {
       <div className="header-main_right">
         <VideocamOutlinedIcon className="header-icon"/>
         <NotificationAddOutlinedIcon className="header-icon"/>
-        <Avatar src="public/anyaaa.png" sx={{ width: 30, height: 30 }} className="header-icon"/>
+        <Avatar src="https://www.mundodeportivo.com/alfabeta/hero/2022/08/cara-anya.jpeg?width=768&aspect_ratio=16:9&format=nowebp" sx={{ width: 30, height: 30 }} className="header-icon"/>
       </div>
    </div>
   );
