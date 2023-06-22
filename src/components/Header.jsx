@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import MicIcon from '@mui/icons-material/Mic';
 import VideocamOutlinedIcon from '@mui/icons-material/VideocamOutlined';
 import NotificationAddOutlinedIcon from '@mui/icons-material/NotificationAddOutlined';
 import { Avatar } from "@mui/material";
 import "./styles/Header.css"
+import { YtContext } from "../YtContext";
 
 const Header = () => {
+
+   const { toggleExtendedNavBar } = useContext(YtContext)
+
   return(
    <div className="header-main">
       <div className="header-main_left">
-         <MenuIcon className="header-icon"/>
+         <MenuIcon className="header-icon" onClick={toggleExtendedNavBar}/>
          <div className={"header-logoContainer"}>
             <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-3-3.png" alt="" className="header-image"/>
          </div>

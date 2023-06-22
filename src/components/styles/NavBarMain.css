@@ -1,0 +1,4 @@
+.navBarMainContainer{
+  display: flex;
+  flex-direction: column;
+}

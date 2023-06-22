@@ -1,0 +1,4 @@
+.navbarExploreContainer{
+  display: flex;
+  flex-direction: column;
+}
